@@ -1,0 +1,44 @@
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(PEYHAIj.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+    overflow: auto;
+    padding: 0% 10% 0% 5%;
+    border-left: 0.4vh solid white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 400%;
+    color: white;
+    text-align: left;
+}
+
+.quote {
+    font-size: 7vh;
+}
+
+.long_quote {
+    font-size: 5vh;
+}
+
+.author {
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vh;
+    font-variant: small-caps;
+    text-decoration: italic;
+}
+
+#reddit-icon {
+    width: 3vh;
+}
